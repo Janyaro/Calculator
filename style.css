@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.conbody{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+    top: 12vh;
+        
+    }
+        
+    .button{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 6px;
+    border-radius: 30px;
+    background-color: #7e7575c9;
+    color: aliceblue;
+    border: 2px solid transparent ;
+    font-family: 'Nunito Sans', sans-serif;
+}
+    .button:hover{
+        background-color: aliceblue;
+        color: black;   
+        font-family: 'Anton', sans-serif;
+    }
+    .entrance{
+        border:2px solid black;    
+        border-radius: 20px;
+        background-color: black;
+    }
+    
+    .input{
+        margin-top:15px ;
+        height: 50px;
+        width: 210px;
+        margin-bottom: 12px;
+        margin-left: 4px;    
+        background-color:#7e7575c9;
+        color:aliceblue;
+        
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    .btnbody{
+        padding: 0px 8px;
+    }
+    .oran{
+        background-color: rgb(196, 136, 25);
+    }
+    p{
+        color:white;
+        text-align: right;
+        position: relative;
+        right: 9px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .gray{
+        background-color: #9d9797;
+        color: aliceblue;
+    }
